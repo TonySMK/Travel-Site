@@ -1,0 +1,74 @@
+.hero{
+    background-color: rgb(114, 156, 114);
+    height: 28rem;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card1{
+    width: 30rem;
+    height: 13rem;
+    background-color: antiquewhite;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    &__title{
+        font-size: 1.8rem;
+        text-transform: capitalize;
+        font-weight: bold;
+    }
+    &__message{
+        font-size: 0.8rem;
+    }
+    &__buttoncontainer{
+    width:8.5rem;
+    height:2rem;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    &__but{
+        font-size: 0.8rem;
+        box-sizing: border-box;
+        padding: 0px;
+        border: none;
+        background-color: orange;
+        &--link{
+            color: white;
+            // text-transform:capitalize;
+            text-decoration: none;
+        }
+        
+        // &--link:first-letter{
+        //     color: white;
+        //     text-transform:capitalize;
+        //     text-decoration: none;
+        // }
+    }
+    }
+
+}
+
+.card2{
+    width: 45%;
+    height: 23rem;
+    // background-color: aquamarine;
+    // background-image: url("../assets/Images/hero.png");
+    // background-position: center;
+    // background-size: 87%;
+    // background-size: contain;
+    // background-repeat: no-repeat;
+    // transform: scale(1,1);
+    &__imgw{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        //  card2's dim's set n' control the max! and min*** contraints, while
+        // b/c __imgw's dim's is set to 100%, the img therefore
+        // repects the set dim's with the use of "object-fit: contain;"
+    }
+
+}
