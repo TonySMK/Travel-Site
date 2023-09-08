@@ -1,9 +1,10 @@
 .hero{
     background-color: rgb(114, 156, 114);
-    height: 28rem;
+    height: 29.75rem;
     display:flex;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 3rem;
 }
 
 .card1{
@@ -22,10 +23,15 @@
     }
     &__message{
         font-size: 0.8rem;
+        height: 2.125rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
     }
     &__buttoncontainer{
     width:8.5rem;
-    height:2rem;
+    height:2.5rem;
     background-color: orange;
     display: flex;
     justify-content: center;

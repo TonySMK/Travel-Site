@@ -1,0 +1,82 @@
+.footer{
+    background-color: aqua;
+    border: none;
+    box-sizing: border-box;
+    height:11rem;
+    padding: 2.5rem  14rem 3.25rem 14rem;
+    // padding left/right value is a compound value 5+14
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .panel{
+        background-color: aliceblue;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height:100%;
+
+        &__top{
+            text-transform: capitalize;
+            font-weight: bold;
+            font-size: 1.4rem;
+        }
+        &__bottom{
+            height: 2.3rem;
+            background-color: grey;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            &--hours{
+                width: 23.5rem;
+                height: 2.3rem;
+                background-color: rgb(215, 215, 215);
+                display: flex;
+                justify-content: space-between;
+                
+
+                .ab{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+
+                    }
+                }
+
+                &--social{
+                    width: 7.25rem;
+                    text-transform: capitalize;
+                    font-weight: bold;
+                    font-size: 1.4rem;
+                }
+            }
+
+            .subheading{
+                text-transform: uppercase;
+                color: red;
+                font-size: 0.6rem;
+            }
+
+            .content{
+                color:rgb(20, 183, 52);
+                font-size: 0.875rem;
+
+                &--social{
+                    display: flex;
+                    justify-content: space-between;
+
+                    &__iconcontian{
+                        background-color: red;
+                        height: 1.35rem;
+                        aspect-ratio: 1/1;
+                        display: flex;
+                        justify-content: center;
+                    }
+                    .content__icon{
+                        height: 100%;
+                    }
+                }
+            }
+        }
+    }
