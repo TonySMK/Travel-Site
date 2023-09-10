@@ -1,47 +1,201 @@
 * {
   font-family: Verdana;
+  color: #335576;
 }
 
 .sdw_container {
   width: 100%;
   box-sizing: border-box;
-  border: 2px solid red;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 5rem;
-  padding-right: 5rem;
-}
-
-.link--current {
-  border-bottom: 2px solid blue;
+  padding-left: 5.25rem;
+  padding-right: 5.25rem;
 }
 
 .navigation {
-  background-color: grey;
-  height: 4rem;
+  background-color: #FFFFFF;
+  height: 3.75rem;
   display: flex;
   padding-top: 1.1rem;
   justify-content: space-between;
   align-items: baseline;
+  position: fixed;
+  top: 0;
+  z-index: 2;
 }
 
 .sitename {
-  background-color: aliceblue;
   text-decoration: none;
-  color: green;
-  font-size: 1.3rem;
+  font-size: 1.125rem;
   text-transform: capitalize;
   font-weight: bolder;
 }
 
+.link--current {
+  border-bottom: 2px solid #DB7A4E;
+}
+
 .link {
-  background-color: aqua;
   height: 2rem;
 }
 .link__name {
-  font-size: 0.5;
+  font-size: 0.875rem;
+  text-decoration: none;
+  padding: 0 0 0.3rem 0;
+  margin: 0 0.4rem 0 0.4rem;
+  text-transform: capitalize;
+  color: black;
+}
+.link__namemgl {
+  font-size: 0.875rem;
   text-decoration: none;
   padding: 0 0 0.25rem 0;
-  margin: 0 0.7rem 0 0.7rem;
+  margin: 0 0.4rem 0 0;
   text-transform: capitalize;
+}
+.link__namemgr {
+  font-size: 0.875rem;
+  text-decoration: none;
+  padding: 0 0 0.25rem 0;
+  margin: 0 0 0 0.4rem;
+  text-transform: capitalize;
+}
+
+.body {
+  border: none;
+  width: 100%;
+  height: 40.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3.5rem 0 5.1rem 0;
+  background-image: url("../assets/Images/greece.jpg");
+  background-size: 100%;
+  background-position: right 50% bottom 48%;
+  background-repeat: no-repeat;
+  transform: scale(1, 1);
+  margin-top: 4rem;
+}
+
+.title {
+  color: #FFFFFF;
+  font-size: 4.25rem;
+  text-transform: capitalize;
+  font-weight: bold;
+  box-sizing: border-box;
+  border: none;
+}
+
+.cdsection {
+  border: none;
+  box-sizing: border-box;
+  width: 100%;
+  height: 87.5%;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+  padding: 0rem 14.25rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cdsection__card {
+  background-color: #FFFFFF;
+  border: none;
+  box-sizing: border-box;
+  padding: 1.128rem 0rem 0rem 0rem;
+  margin: 0 0 0 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 246.4px;
+  border-radius: 5px;
+  height: 21.5625rem;
+}
+.cdsection__card li {
+  background-color: #FEFAF5;
+  box-sizing: border-box;
+  width: 212px;
+  height: 2.632rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.75rem 0 0 0;
+  text-transform: capitalize;
+}
+.cdsection__card .topic {
+  margin: 0 0 1.13rem 0;
+  height: 1.5rem;
+  text-transform: capitalize;
+  font-weight: bold;
+  border-bottom: 2px solid black;
+}
+
+.footer {
+  background-color: #FEFAF5;
+  border: none;
+  box-sizing: border-box;
+  height: 11rem;
+  padding: 2.5rem 14rem 3.25rem 14.25rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer .panel {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+.footer .panel__top {
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+.footer .panel__bottom {
+  height: 2.3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.footer .panel__bottom--hours {
+  width: 23.5rem;
+  height: 2.3rem;
+  display: flex;
+  justify-content: space-between;
+}
+.footer .panel__bottom--hours .ab {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.footer .panel__bottom--social {
+  width: 7.25rem;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+.footer .panel .subheading {
+  text-transform: uppercase;
+  font-size: 0.6rem;
+  color: #DB7A4E;
+}
+.footer .panel .content {
+  color: #335576;
+  font-size: 0.875rem;
+  text-decoration: none;
+}
+.footer .panel .content--social {
+  display: flex;
+  justify-content: space-between;
+}
+.footer .panel .content--social__iconcontian {
+  height: 1.35rem;
+  aspect-ratio: 1/1;
+  display: flex;
+  justify-content: center;
+}
+.footer .panel .content--social .content__icon {
+  height: 100%;
 }/*# sourceMappingURL=page_greece.css.map */

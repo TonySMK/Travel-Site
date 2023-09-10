@@ -1,31 +1,41 @@
 .hero{
-    background-color: rgb(114, 156, 114);
-    height: 28rem;
+    background-color: #FEFAF5;
+    height: 29.75rem;
     display:flex;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 3rem;
+
+    padding-top: 4rem;
 }
 
 .card1{
     width: 30rem;
     height: 13rem;
-    background-color: antiquewhite;
+    background-color: inherit;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    
     &__title{
-        font-size: 1.8rem;
+        font-size: 2.1rem;
         text-transform: capitalize;
         font-weight: bold;
     }
     &__message{
         font-size: 0.8rem;
+        height: 2.125rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        color: #335576;
+
     }
     &__buttoncontainer{
     width:8.5rem;
-    height:2rem;
-    background-color: orange;
+    height:2.5rem;
+    background-color: #DB7A4E;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -35,7 +45,7 @@
         box-sizing: border-box;
         padding: 0px;
         border: none;
-        background-color: orange;
+        background-color: inherit;
         &--link{
             color: white;
             // text-transform:capitalize;
