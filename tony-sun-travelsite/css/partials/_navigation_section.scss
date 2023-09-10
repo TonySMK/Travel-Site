@@ -1,34 +1,37 @@
-.link--current{
-    border-bottom: 2px solid blue;
-}
 .navigation{
-    background-color:grey;
+    background-color:#FFFFFF;
     height: 3.75rem;
     display: flex;
     padding-top:1.1rem;
     justify-content: space-between;
-    align-items:baseline;  
+    align-items:baseline;
+    
+    
+    position: fixed;
+    top: 0;
+    z-index: 2;
 }
 
 .sitename{
-    background-color: aliceblue;
     text-decoration: none;
-    color: green;
     font-size: 1.125rem;
     text-transform: capitalize;
     font-weight: bolder;
 }
 
+.link--current{
+    border-bottom: 2px solid #DB7A4E;
+}
+
 .link{
-    background-color: aqua;
     height: 2rem;
     &__name{
         font-size: 0.875rem;
         text-decoration: none;
-        padding: 0 0 0.25rem 0;
+        padding: 0 0 0.3rem 0;
         margin: 0 0.4rem 0 0.4rem;
-        // border-bottom: 2px solid blue;
         text-transform: capitalize;
+        color: black;
     }
 
     &__namemgl{
@@ -36,7 +39,6 @@
         text-decoration: none;
         padding: 0 0 0.25rem 0;
         margin: 0 0.4rem 0 0;
-        // border-bottom: 2px solid blue;
         text-transform: capitalize;
     }
     &__namemgr{
@@ -44,7 +46,6 @@
         text-decoration: none;
         padding: 0 0 0.25rem 0;
         margin: 0 0 0 0.4rem;
-        // border-bottom: 2px solid blue;
         text-transform: capitalize;
     }
 }

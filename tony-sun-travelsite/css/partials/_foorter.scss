@@ -1,16 +1,14 @@
 .footer{
-    background-color: aqua;
+    background-color: #FEFAF5;
     border: none;
     box-sizing: border-box;
     height:11rem;
-    padding: 2.5rem  14rem 3.25rem 14rem;
-    // padding left/right value is a compound value 5+14
+    padding: 2.5rem  14rem 3.25rem 14.25rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
 
     .panel{
-        background-color: aliceblue;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -23,7 +21,6 @@
         }
         &__bottom{
             height: 2.3rem;
-            background-color: grey;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
@@ -31,7 +28,6 @@
             &--hours{
                 width: 23.5rem;
                 height: 2.3rem;
-                background-color: rgb(215, 215, 215);
                 display: flex;
                 justify-content: space-between;
                 
@@ -54,20 +50,20 @@
 
             .subheading{
                 text-transform: uppercase;
-                color: red;
                 font-size: 0.6rem;
+                color: #DB7A4E;
             }
 
             .content{
-                color:rgb(20, 183, 52);
+                color: #335576;
                 font-size: 0.875rem;
+                text-decoration: none;
 
                 &--social{
                     display: flex;
                     justify-content: space-between;
 
                     &__iconcontian{
-                        background-color: red;
                         height: 1.35rem;
                         aspect-ratio: 1/1;
                         display: flex;
