@@ -7,15 +7,34 @@
     justify-content: space-between;
     align-items: center;
     padding: 3.5rem 0 5.1rem 0;
+    
+    margin-top: 4rem;
+}
 
+
+#haw{
+    background-image: url("../assets/Images/hawaii.jpg");
+    background-size: 100%;
+    background-position: right 50% bottom 48%;
+    background-repeat: no-repeat;
+    transform: scale(1, 1);
+}
+
+
+#ice{
     background-image: url("../assets/Images/iceland.jpg");
     background-size: 100%;
     background-position: right 50% bottom 48%;
     background-repeat: no-repeat;
     transform: scale(1, 1);
+}
 
-    
-    margin-top: 4rem;
+#grc{
+    background-image: url("../assets/Images/greece.jpg");
+    background-size: 100%;
+    background-position: right 50% bottom 48%;
+    background-repeat: no-repeat;
+    transform: scale(1, 1);
 }
 
 .title{
@@ -42,7 +61,7 @@
         background-color: #FFFFFF;
         border:none;
         box-sizing: border-box;
-        padding: 1.28rem 0rem 0rem 0rem;
+        padding: 1.28rem 1rem 0rem 1rem;
         margin: 0 0 0 0;
         list-style-type: none;
         display: flex;
@@ -50,7 +69,8 @@
         align-items: center;
         width: 246.4px;
         border-radius: 5px;
-        height: 21.5625rem; 
+        height: 21.5625rem;
+        // position: relative;
 
         & li{
             background-color: #FEFAF5;
@@ -62,6 +82,7 @@
             align-items: center;
             margin:0.75rem 0 0 0;
             text-transform: capitalize;
+            // position: absolute;
         }
 
         .topic{
