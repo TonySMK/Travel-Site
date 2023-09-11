@@ -41,7 +41,7 @@
 }
 
 .title{
-    color: #FFFFFF;
+    color: #ffffff;
     font-size: 4.25rem;
     text-transform: capitalize;
     font-weight: bold;
@@ -61,7 +61,7 @@
     justify-content: space-between;
     align-items: center;
     &__card{
-        background-color: #FFFFFF;
+        background-color: #ffffff;
         border:none;
         box-sizing: border-box;
         padding: 1.28rem 1rem 0rem 1rem;
@@ -73,7 +73,6 @@
         width: 246.4px;
         border-radius: 5px;
         height: 21.5625rem;
-        // position: relative;
 
         & li{
             background-color: #FEFAF5;
@@ -85,7 +84,6 @@
             align-items: center;
             margin:0.75rem 0 0 0;
             text-transform: capitalize;
-            // position: absolute;
         }
 
         .topic{
@@ -94,6 +92,8 @@
             text-transform: capitalize;
             font-weight: bold;
             border-bottom: 2px solid black;
+            background-color: #ffffff;
+            color: black;      
         }
     }
 }
