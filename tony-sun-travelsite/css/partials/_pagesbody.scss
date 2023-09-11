@@ -1,3 +1,5 @@
+// general pages styling - utility file
+
 .body{
     border:none;
     width: 100%;
@@ -11,7 +13,7 @@
     margin-top: 4rem;
 }
 
-
+// hawaii page background image positioning/sizing standalone-customize - utility selector
 #haw{
     background-image: url("../assets/Images/hawaii.jpg");
     background-size: 100%;
@@ -20,7 +22,7 @@
     transform: scale(1, 1);
 }
 
-
+// iceland page background image positioning/sizing standalone-customize - utility selector
 #ice{
     background-image: url("../assets/Images/iceland.jpg");
     background-size: 100%;
@@ -29,6 +31,7 @@
     transform: scale(1, 1);
 }
 
+// greece page background image positioning/sizing standalone-customize - utility selector
 #grc{
     background-image: url("../assets/Images/greece.jpg");
     background-size: 100%;

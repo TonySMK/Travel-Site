@@ -32,7 +32,8 @@
                 justify-content: space-between;
                 
 
-                .ab{
+                // "hours" bottom panel standalone-customize
+                .dayhours{
                     display: flex;
                     flex-direction: column;
                     justify-content: space-between;
@@ -54,18 +55,23 @@
                 color: #DB7A4E;
             }
 
+            // "Social" panel standalone-customize
             .content{
                 color: #335576;
                 font-size: 0.875rem;
                 text-decoration: none;
+                
 
                 &--social{
                     display: flex;
                     justify-content: space-between;
+                    // we flexing the social panel -space-between --> in bottom half, a container is created for houseing the img.containers (__iconcontain) -->
+                    // --> img.container dimensions are specified --> make img inherit/occupy said dimensions
 
                     &__iconcontian{
                         height: 1.35rem;
                         aspect-ratio: 1/1;
+                        // critical for facebook's propertional icon rendering
                         display: flex;
                         justify-content: center;
                     }
