@@ -70,12 +70,31 @@
   justify-content: space-between;
   align-items: center;
   padding: 3.5rem 0 5.1rem 0;
+  margin-top: 4rem;
+}
+
+#haw {
+  background-image: url("../assets/Images/hawaii.jpg");
+  background-size: 100%;
+  background-position: right 50% bottom 48%;
+  background-repeat: no-repeat;
+  transform: scale(1, 1);
+}
+
+#ice {
+  background-image: url("../assets/Images/iceland.jpg");
+  background-size: 100%;
+  background-position: right 50% bottom 48%;
+  background-repeat: no-repeat;
+  transform: scale(1, 1);
+}
+
+#grc {
   background-image: url("../assets/Images/greece.jpg");
   background-size: 100%;
   background-position: right 50% bottom 48%;
   background-repeat: no-repeat;
   transform: scale(1, 1);
-  margin-top: 4rem;
 }
 
 .title {
@@ -103,7 +122,7 @@
   background-color: #FFFFFF;
   border: none;
   box-sizing: border-box;
-  padding: 1.128rem 0rem 0rem 0rem;
+  padding: 1.28rem 1rem 0rem 1rem;
   margin: 0 0 0 0;
   list-style-type: none;
   display: flex;
@@ -198,4 +217,4 @@
 }
 .footer .panel .content--social .content__icon {
   height: 100%;
-}/*# sourceMappingURL=page_greece.css.map */
+}/*# sourceMappingURL=destination.css.map */
