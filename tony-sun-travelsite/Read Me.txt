@@ -1,0 +1,2 @@
+Rendered according to:
+	"Keep in mind that the mockups were created for a screen size of 1280px wide."
